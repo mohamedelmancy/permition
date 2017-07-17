@@ -28,7 +28,7 @@ btn1.setOnClickListener(new View.OnClickListener() {
             byte m[] = yourtext.getBytes();
             outputStream.write(m);
             outputStream.close();
-            text.setText("Sucess :D :D ");
+            text.setText("Sucess :D :D :D ");
         }catch (Exception e){}
 
     }
